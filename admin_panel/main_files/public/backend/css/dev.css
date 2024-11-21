@@ -1,0 +1,384 @@
+.btn,
+.form-group>label {
+    font-size: 14px !important
+}
+
+.table {
+    font-size: 15px !important;
+}
+
+.btn-primary {
+    background-color: #2046DA !important;
+}
+
+.btn-danger {
+    background-color: #fb160a !important
+}
+
+.toggle.btn.btn-success,
+.toggle.btn.btn-danger {
+    width: 95px !important;
+}
+
+.text-area-5 {
+    min-height: 100px !important;
+}
+
+.text-area-3 {
+    min-height: 60px !important;
+}
+
+img.admin-img {
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    padding: 0px;
+    max-width: 180px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0px;
+}
+
+img.admin-banner-img {
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    padding: 0px;
+    max-width: 200px;
+    height: 120px;
+    object-fit: cover;
+    margin: 0px;
+}
+
+.select2-container .select2-selection--single {
+    font-size: 14px !important;
+    padding: 10px 15px !important;
+    height: 42px !important;
+    border-color: #e4e6fc !important;
+}
+
+.tagify tag {
+    margin: -5px 0px 5px 5px !important;
+}
+
+.tagify__input {
+    margin: -5px 0px 5px 5px !important;
+}
+
+.note-editable {
+    min-height: 120px !important;
+}
+
+.card-body.seller_chat_list {
+    height: 650px !important;
+}
+
+.chat-box .chat-content .chat-item.chat-right img {
+    object-fit: cover;
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.plus_btn {
+    margin-top: 32px;
+}
+
+.card-header h1 {
+    margin-bottom: 0;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 3px;
+    color: #34395e;
+}
+
+.card .card-header .form-control {
+    height: 42px;
+    font-size: 14px;
+    border-radius: 0;
+}
+
+.card .card-header .btn {
+    margin-top: 1px;
+    padding: 0.3rem 0.8rem;
+}
+
+.card .card-header .btn:not(.note-btn) {
+    border-radius: .25rem;
+}
+
+.add_new_social_btn {
+    margin-top: 35px !important;
+}
+
+.section-body a {
+    text-decoration: none !important;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.chat-box .chat-content {
+    background-color: #f9f9f9 !important;
+    height: 600px;
+    overflow-y: auto;
+    padding-top: 25px !important;
+}
+
+.media span {
+    background: #2a9cf5;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    top: 30px;
+    left: -30px;
+    position: relative;
+}
+
+.list-unstyled .active {
+    background: #f8f8f8;
+}
+
+table .rounded-circle {
+    border-radius: 50%!important;
+    width: 80px !important;
+    height: 80px !important;
+    object-fit: cover !important;
+}
+
+.profile-widget .profile-widget-picture {
+    width: 100px !important;
+    height: 100px !important;
+    object-fit: cover !important;
+}
+
+.default-avatar {
+    width: 100px !important;
+    height: 100px !important;
+    object-fit: cover !important;
+}
+
+.navbar .nav-link.nav-link-user img {
+    width: 30px !important;
+    height: 30px !important;
+    object-fit: cover !important;
+}
+
+img.mr-3.ml-3.rounded-circle {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.chat-item.chat-left img {
+    width: 60px !important;
+    height: 60px !important;
+    object-fit: cover;
+}
+
+#toast-container>.toast:before {
+    display: none !important;
+}
+
+.w_80 {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.w_220 {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.height_165 {
+    width: 100px;
+    height: 165px;
+    object-fit: cover;
+}
+
+.w_120 {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.w_200 {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.w_180_h_100 {
+    width: 180px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.btn_mt_33 {
+    margin-top: 33px;
+}
+
+.addon_text {
+    width: 56px !important;
+}
+
+.service_image {
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.service_card {
+    color: #34395e;
+}
+
+.service_detail {
+    width: 77%;
+}
+
+.service_detail p {
+    line-height: 12px !important;
+}
+
+.service_detail h6 {
+    margin-bottom: 12px !important;
+}
+
+.report_table p {
+    line-height: 14px !important;
+}
+
+.ticket-message .author_message {
+    background: #e9ecef !important;
+}
+
+.upload_photo {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.card.custom_bg {
+    background: #ab4268;
+    color: #fff;
+}
+
+.home_border {
+    color: #34395e !important;
+}
+
+.dashboard_title {
+    color: #34395e;
+}
+
+.home2_image {
+    width: 200px !important;
+    height: 200px !important;
+}
+
+.w_300_h_150 {
+    width: 300px !important;
+    height: 150px !important;
+    object-fit: cover;
+}
+
+.error_404 {
+    width: 300px !important;
+    height: 150px !important;
+}
+
+.icon_w100 {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.app_image {
+    width: 200px !important;
+    height: 200px !important;
+}
+
+@media (min-width: 1400px) {
+    .service_detail {
+        width: 78%;
+    }
+    .service_image {
+        width: 19% !important;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+    .service_detail {
+        width: 73%;
+    }
+    .service_image {
+        width: 25% !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    .service_detail {
+        width: 74%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+    .service_detail {
+        width: 66%;
+    }
+    .service_detail h4 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+    .service_detail {
+        margin-top: 15px;
+        width: 100%;
+    }
+    .service_detail h4 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 575.99px) {
+    .service_detail {
+        margin-top: 15px;
+        width: 100%;
+    }
+    .service_detail h4 {
+        font-size: 20px;
+    }
+    .service_detail .btn {
+        font-size: 12px !important;
+    }
+}
+
+.add_new_options,
+.remove_new_options,
+.add_new_options_in_edit {
+    cursor: pointer;
+}
+
+.variant_image {
+    width: 135px;
+    height: 123px;
+}
+
+.variant_image img {
+    height: 100%;
+    width: 100%;
+}
+
+.h_500 {
+    height: 500px;
+}

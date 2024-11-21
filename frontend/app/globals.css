@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*default css*/
+@layer base {
+  :root {
+    /* only accept rgb code
+    Assume Your color is rgb(69, 248, 130) 
+    that means your color code is 69, 248, 130 
+    so you can set --[YOUR_VARIABLE]:[YOUR_COLOR_CODE]  */
+    --primary-background: 69, 248, 130;
+    --primary-foreground: 0, 0, 0;
+  }
+}
+body {
+  font-family: "Urbanist", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #e5e7eb;
+  letter-spacing: 0.03em;
+  background: #0b0e13;
+  position: unset !important;
+}
+/* first load loader */
+.progressFirstLoad {
+  height: 4.5px;
+  width: 145.6px;
+  background: linear-gradient(#ffb321 0 0), linear-gradient(#ffb321 0 0),
+    #0b0e13;
+  background-size: 60% 100%;
+  background-repeat: no-repeat;
+  animation: progress-7x9cg2 3s infinite;
+}
+
+@keyframes progress-7x9cg2 {
+  0% {
+    background-position: -150% 0, -150% 0;
+  }
+
+  66% {
+    background-position: 250% 0, -150% 0;
+  }
+
+  100% {
+    background-position: 250% 0, 250% 0;
+  }
+}
+/* google translate */
+font {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.skiptranslate {
+  display: none !important;
+}
+.goog-gt-tt {
+  display: none !important;
+}
+.goog-te-spinner-pos,
+.goog-te-spinner {
+  display: none !important;
+}
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf {
+  display: none !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.overflow-style-none::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.overflow-style-none {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.page-content-wrapper
+  :is(
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    h1 strong,
+    h2 strong,
+    h3 strong,
+    h4 strong,
+    h5 strong,
+    h6 strong
+  ) {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  color: #fff !important;
+  margin-bottom: 10px !important;
+}
+.page-content-wrapper :is(p),
+.blog-details-html :is(p) {
+  margin-bottom: 20px !important;
+  color: #cccccc;
+}
+.blog-details-html :is(h1, h2, h3, h4, h5, h6) {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  line-height: 32px !important;
+  color: white !important;
+  margin-bottom: 20px !important;
+}
+.blog-details-html :is(ol, ul),
+.page-content-wrapper :is(ol, ul) {
+  list-style-type: disc !important;
+  margin-left: 40px !important;
+  margin-bottom: 20px !important;
+}
+[dir="rtl"] .blog-details-html :is(ol, ul),
+[dir="rtl"] .page-content-wrapper :is(ol, ul) {
+  margin-left: auto !important;
+  margin-right: 40px !important;
+}
+.contact-iframe iframe {
+  width: 100% !important;
+  height: 100% !important;
+}
+.common-transition {
+  @apply transition-all duration-300 ease-in-out;
+}
+.theme-container {
+  max-width: 1170px;
+  padding: 0;
+}
+.defaultBox {
+  @apply border border-[#23262B] bg-black;
+}
+.details-tag-wrapper .swiper-slide {
+  width: auto;
+}
+/*default css end=========================*/
+.page-title-wrapper {
+  background-image: url("/assets/img/page-title-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.filter-wrapper {
+  box-shadow: 0 6px 60px 5px rgba(0, 0, 0, 0.08);
+}
+/* range slider */
+.range-slider {
+  background: #333333 !important;
+  height: 6px !important;
+}
+.range-slider .range-slider__thumb,
+.range-slider .range-slider__range {
+  background: rgb(var(--primary-background)) !important;
+}
+.range-slider .range-slider__thumb {
+  background: #fff !important;
+  width: 18px !important;
+  height: 18px !important;
+  box-shadow: 0px 3px 10px 0px rgba(204, 204, 204, 1) !important;
+}
+.details-tab-wrapper .tab-body {
+  display: none;
+  animation: tabFade 1s;
+}
+.details-tab-wrapper .tab-body.active {
+  display: block;
+}
+.testimonial-dots {
+  margin-top: 30px;
+  text-align: center;
+}
+.testimonial-dots .swiper-pagination-bullet {
+  background-color: rgb(var(--primary-background)) !important;
+}
+.social-shadow {
+  box-shadow: 0px 4px 8px 0px rgba(0, 124, 251, 0.16);
+}
+
+/* animation */
+@keyframes tabFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.main-hero-slider .swiper-pagination-bullet {
+  background-color: #fff;
+  opacity: 100;
+  margin: 0 20px !important;
+  position: relative;
+}
+.main-hero-slider
+  .swiper-pagination-bullet.swiper-pagination-bullet-active::before {
+  content: "";
+  display: block;
+  width: 29px;
+  height: 29px;
+  border-radius: 999999px;
+  border: 1px solid #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-hero-slider .swiper-pagination-bullets.swiper-pagination-horizontal {
+  top: auto;
+  bottom: 50px;
+}
+[dir="rtl"] .slider-product-slider .swiper-slide {
+  margin-right: 0px !important;
+  margin-left: 30px !important;
+}
+
+/* responsive */
+@media (max-width: 1536px) {
+}
+@media (max-width: 1280px) {
+}
+@media (max-width: 1170px) {
+  .theme-container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .main-hero-slider .swiper-pagination-bullets.swiper-pagination-horizontal {
+    top: auto;
+    bottom: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+}
+@media (max-width: 640px) {
+  .slider-product-slider .swiper {
+    overflow: unset;
+  }
+  .theme-container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  .main-hero-slider .swiper-pagination {
+    text-align: end;
+  }
+  .main-hero-slider .swiper-pagination-bullet {
+    background-color: #fff;
+    opacity: 100;
+    margin: 0 15px !important;
+    position: relative;
+  }
+  .main-hero-slider
+    .swiper-pagination-bullet.swiper-pagination-bullet-active::before {
+    width: 25px;
+    height: 25px;
+  }
+}
+@media (max-width: 320px) {
+}
+
+@media (min-width: 1536px) {
+}
